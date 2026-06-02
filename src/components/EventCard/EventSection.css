@@ -1,0 +1,44 @@
+.event-section {
+
+  background:
+  linear-gradient(
+    to bottom,
+    #fff8f2,
+    #ffffff
+  );
+
+  position: relative;
+}
+
+.event-section::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+  radial-gradient(
+    circle at top left,
+    rgba(255,182,193,.15),
+    transparent 50%
+  );
+
+  pointer-events: none;
+}
+
+.event-card {
+
+  backdrop-filter: blur(20px);
+
+  transition:
+  all .4s ease;
+}
+
+.event-card:hover {
+
+  box-shadow:
+  0 20px 50px
+  rgba(212,175,55,.25);
+}

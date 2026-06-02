@@ -1,0 +1,192 @@
+.venue-section {
+
+  background:
+  linear-gradient(
+    to bottom,
+    #fff8f2,
+    #ffffff
+  );
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.venue-wrapper {
+
+  display: grid;
+
+  grid-template-columns:
+  1fr 1.4fr;
+
+  gap: 40px;
+
+  align-items: center;
+}
+
+.venue-card {
+
+  background:
+  rgba(255,255,255,.6);
+
+  backdrop-filter:
+  blur(18px);
+
+  border-radius: 35px;
+
+  padding: 40px;
+
+  box-shadow:
+  0 15px 40px
+  rgba(0,0,0,.08);
+}
+
+.venue-title {
+
+  font-size: 2rem;
+
+  color: #7A1E1E;
+
+  margin-bottom: 30px;
+
+  font-family:
+  "Playfair Display";
+}
+
+.venue-info {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.venue-item {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+.navigate-btn {
+
+  display: inline-block;
+
+  margin-top: 35px;
+
+  padding: 14px 30px;
+
+  border-radius: 999px;
+
+  text-decoration: none;
+
+  color: white;
+
+  background:
+  linear-gradient(
+    135deg,
+    #D4AF37,
+    #F7E7A9
+  );
+
+  font-weight: 600;
+
+  transition: .3s;
+}
+
+.navigate-btn:hover {
+
+  transform:
+  translateY(-3px);
+
+  box-shadow:
+  0 15px 30px
+  rgba(212,175,55,.3);
+}
+
+.map-container {
+
+  overflow: hidden;
+
+  border-radius: 35px;
+
+  box-shadow:
+  0 15px 40px
+  rgba(0,0,0,.08);
+}
+
+.map-container iframe {
+
+  border: none;
+}
+
+.venue-flower {
+
+  position: absolute;
+
+  font-size: 2rem;
+
+  animation:
+  venueFloat 8s infinite
+  ease-in-out;
+}
+
+.flower1 {
+  left: 6%;
+  top: 20%;
+}
+
+.flower2 {
+  right: 7%;
+  top: 40%;
+}
+
+.flower3 {
+  left: 10%;
+  bottom: 10%;
+}
+
+@keyframes venueFloat {
+
+  0%{
+    transform:
+    translateY(0);
+  }
+
+  50%{
+    transform:
+    translateY(-25px);
+  }
+
+  100%{
+    transform:
+    translateY(0);
+  }
+}
+
+@media(max-width:992px){
+
+  .venue-wrapper{
+    grid-template-columns:1fr;
+  }
+
+  .map-container iframe{
+    height:400px;
+  }
+
+}
+
+@media(max-width:600px){
+
+  .venue-card{
+    padding:25px;
+  }
+
+  .map-container iframe{
+    height:300px;
+  }
+
+}

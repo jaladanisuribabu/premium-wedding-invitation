@@ -1,0 +1,31 @@
+.hero-section {
+
+  background:
+  linear-gradient(
+    rgba(255,248,242,.85),
+    rgba(249,228,230,.85)
+  ),
+
+  url("https://images.unsplash.com/photo-1511285560929-80b456fea0bc")
+  center center / cover;
+
+  position: relative;
+}
+
+.hero-section::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+  radial-gradient(
+    circle,
+    rgba(255,255,255,.3),
+    transparent 70%
+  );
+
+  pointer-events: none;
+}

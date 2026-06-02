@@ -1,0 +1,79 @@
+.countdown-section {
+
+  background:
+  linear-gradient(
+    180deg,
+    #fff8f2,
+    #f9e4e6
+  );
+
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.save-date-card {
+
+  backdrop-filter: blur(20px);
+
+  background:
+  rgba(255,255,255,.4);
+
+  border:
+  1px solid rgba(255,255,255,.4);
+
+  box-shadow:
+  0 10px 40px rgba(0,0,0,.08);
+}
+
+.petal {
+
+  position: absolute;
+
+  font-size: 2rem;
+
+  animation:
+  floatPetal 12s linear infinite;
+}
+
+.petal-1 {
+  left: 10%;
+  top: 15%;
+}
+
+.petal-2 {
+  right: 10%;
+  top: 20%;
+}
+
+.petal-3 {
+  left: 20%;
+  bottom: 20%;
+}
+
+.petal-4 {
+  right: 20%;
+  bottom: 10%;
+}
+
+@keyframes floatPetal {
+
+  0% {
+    transform:
+    translateY(0px)
+    rotate(0deg);
+  }
+
+  50% {
+    transform:
+    translateY(-40px)
+    rotate(180deg);
+  }
+
+  100% {
+    transform:
+    translateY(0px)
+    rotate(360deg);
+  }
+}

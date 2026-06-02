@@ -1,0 +1,149 @@
+.family-section {
+
+  background:
+  linear-gradient(
+    to bottom,
+    #ffffff,
+    #fff8f2
+  );
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.family-wrapper {
+
+  display: grid;
+
+  grid-template-columns:
+  repeat(2,1fr);
+
+  gap: 50px;
+}
+
+.family-title {
+
+  text-align: center;
+
+  font-size: 2rem;
+
+  color: #7A1E1E;
+
+  margin-bottom: 30px;
+
+  font-family:
+  "Playfair Display";
+}
+
+.family-grid {
+
+  display: grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(250px,1fr));
+
+  gap: 25px;
+}
+
+.family-card {
+
+  background:
+  rgba(255,255,255,.65);
+
+  backdrop-filter:
+  blur(15px);
+
+  border-radius: 30px;
+
+  overflow: hidden;
+
+  box-shadow:
+  0 10px 30px
+  rgba(0,0,0,.08);
+}
+
+.family-image {
+
+  width: 100%;
+
+  height: 280px;
+
+  object-fit: cover;
+}
+
+.blessing-card {
+
+  margin-top: 80px;
+
+  padding: 50px;
+
+  text-align: center;
+
+  border-radius: 40px;
+
+  background:
+  rgba(255,255,255,.5);
+
+  backdrop-filter:
+  blur(20px);
+
+  box-shadow:
+  0 10px 40px
+  rgba(0,0,0,.08);
+}
+
+.family-flower {
+
+  position: absolute;
+
+  font-size: 2rem;
+
+  animation:
+  familyFloat 8s infinite
+  ease-in-out;
+}
+
+.flower-1 {
+  left: 5%;
+  top: 15%;
+}
+
+.flower-2 {
+  right: 8%;
+  top: 30%;
+}
+
+.flower-3 {
+  left: 12%;
+  bottom: 10%;
+}
+
+@keyframes familyFloat {
+
+  0%{
+    transform:
+    translateY(0);
+  }
+
+  50%{
+    transform:
+    translateY(-20px);
+  }
+
+  100%{
+    transform:
+    translateY(0);
+  }
+}
+
+@media(max-width:768px){
+
+  .family-wrapper{
+    grid-template-columns:1fr;
+  }
+
+  .blessing-card{
+    padding:30px;
+  }
+}

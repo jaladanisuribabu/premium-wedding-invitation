@@ -1,0 +1,12 @@
+.footer {
+
+  padding: 100px 20px;
+
+  text-align: center;
+
+  background:
+  linear-gradient(
+    #fff8f2,
+    #f9e4e6
+  );
+}
