@@ -1,0 +1,18 @@
+rules_version = '2';
+
+service cloud.firestore {
+
+  match /databases/{database}/documents {
+
+    match /rsvps/{document} {
+
+      allow create;
+
+      allow read:
+      if false;
+
+      allow update, delete:
+      if false;
+    }
+  }
+}

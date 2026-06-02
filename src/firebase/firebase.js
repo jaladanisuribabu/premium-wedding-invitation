@@ -5,22 +5,22 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
+  apiKey: "AIzaSyC8rUc-o68shfZzztTlFgdFzr8qjFGOQV8",
 
   authDomain:
-    "YOUR_PROJECT.firebaseapp.com",
+    "premium-wedding-invitati-a2f39.firebaseapp.com",
 
   projectId:
-    "YOUR_PROJECT_ID",
+    "premium-wedding-invitati-a2f39",
 
   storageBucket:
-    "YOUR_PROJECT.appspot.com",
+    "premium-wedding-invitati-a2f39.firebasestorage.app",
 
   messagingSenderId:
-    "XXXXXXXX",
+    "4268190434361:426819043436:web:763ba66df5163b13b51849",
 
   appId:
-    "XXXXXXXX"
+    "G-60LH2ETN59"
 };
 
 const app =
