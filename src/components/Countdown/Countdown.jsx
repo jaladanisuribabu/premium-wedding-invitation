@@ -1,4 +1,8 @@
 import { motion } from "framer-motion";
+import Confetti from "react-confetti";
+
+import useCountdown from "../../hooks/useCountdown";
+import { weddingData } from "../../data/weddingData";
 
 export  function CountdownCard({
   value,
