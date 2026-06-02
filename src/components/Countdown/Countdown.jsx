@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export default function CountdownCard({
+export  function CountdownCard({
   value,
   label
 }) {
@@ -47,17 +47,6 @@ export default function CountdownCard({
   );
   
 }
-import { motion } from "framer-motion";
-import Confetti from "react-confetti";
-
-import useCountdown from "../../hooks/useCountdown";
-
-import { weddingData } from "../../data/weddingData";
-
-import CountdownCard from "./CountdownCard";
-
-import "./Countdown.css";
-
 export default function Countdown() {
   const {
     days,
