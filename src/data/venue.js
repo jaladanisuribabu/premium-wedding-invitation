@@ -6,7 +6,7 @@ export const venueData = {
     "Thimarajupalam, Near Kottasathama Temple, Andhra Pradesh",
 
   date:
-    "Saturday, 17 January 2026",
+    "Monday, 17 January 2028",
 
   time:
     "10:30 AM",

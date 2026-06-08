@@ -1,8 +1,8 @@
 export const weddingData = {
-  bride: "Sai Sri Nidhi",
-  groom: "Tulaja Bhavani",
+  bride: "Chinni",
+  groom: "Venkat",
 
-  weddingDate: "2026-01-17T10:30:00",
+  weddingDate: "2028-01-17T10:30:00",
 
   venue: "Thimarajupalam Near Kottasathama Temple Green City"
 };

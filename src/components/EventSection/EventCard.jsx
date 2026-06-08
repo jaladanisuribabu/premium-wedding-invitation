@@ -25,30 +25,17 @@ export default function EventCard({ event }) {
         background: event.color
       }}
     >
-      <div className="absolute right-4 top-4 text-5xl opacity-20">
-        {<img
-  src={`/images/events/mehendi.png`}
-  alt={event.title}
-  className="
-  w-full
-  h-52
-  object-contain
-  mb-6
-  "
-/>}
-      </div>
-
-      <div className="text-5xl mb-4">
-        {<img
-  src={`/images/events/wedding.png`}
-  alt={event.title}
-  className="
-  w-full
-  h-52
-  object-contain
-  mb-6
-  "
-/>}
+      <div className="mb-6 overflow-hidden rounded-2xl bg-white/35">
+        <img
+          src={event.image}
+          alt={event.title}
+          className="
+          h-64
+          w-full
+          object-cover
+          object-top
+          "
+        />
       </div>
 
       <h3

@@ -42,7 +42,7 @@ export const storyData = [
   {
     id: 5,
     title: "Wedding Day",
-    date: "2026",
+    date: "2028",
     description:
       "The day we begin our forever journey together surrounded by love and blessings.",
     icon: "💒",

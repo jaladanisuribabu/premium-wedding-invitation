@@ -1,7 +1,7 @@
 export const seo = {
 
   title:
-    "Sai Sri Nidhi & Tulaja Bhavani Wedding",
+    "Chinni & Venkat Wedding",
 
   description:
     "Join us to celebrate our wedding ceremony.",

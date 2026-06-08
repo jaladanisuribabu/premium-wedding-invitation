@@ -4,6 +4,7 @@ import gsap from "gsap";
 
 import InvitationOpening from "../InvitationOpening/InvitationOpening";
 import FloatingEffects from "../FloatingEffects/FloatingEffects";
+import { weddingData } from "../../data/weddingData";
 
 import "./Hero.css";
 
@@ -75,7 +76,7 @@ export default function Hero() {
               text-maroon
             "
           >
-            Bride Name
+            {weddingData.bride}
           </h1>
 
           <div className="text-4xl my-4 text-gold">
@@ -90,7 +91,7 @@ export default function Hero() {
               text-maroon
             "
           >
-            Groom Name
+            {weddingData.groom}
           </h1>
 
           <motion.p
