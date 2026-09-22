@@ -121,7 +121,7 @@ export default function Countdown() {
             mb-8
             "
           >
-            January 17, 2028
+            November 15, 2026
           </h2>
 
           <div

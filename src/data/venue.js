@@ -6,10 +6,10 @@ export const venueData = {
     "Thimarajupalam, Near Kottasathama Temple, Andhra Pradesh",
 
   date:
-    "Monday, 17 January 2028",
+    "Sunday, 15 November 2026",
 
   time:
-    "10:30 AM",
+    "08:30 AM",
 
   mapEmbed:
     "https://www.google.com/maps/embed?pb=YOUR_EMBED_LINK",

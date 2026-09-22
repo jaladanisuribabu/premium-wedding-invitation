@@ -2,8 +2,8 @@ export const events = [
   {
     id: 1,
     title: "Engagement",
-    date: "15 January 2028",
-    time: "10:00 AM",
+    date: "16 October 2026",
+    time: "08:00 AM",
     venue: "Green City Function Hall",
     theme: "engagement",
     image: "/images/events/engagement.jpg",
@@ -13,9 +13,21 @@ export const events = [
 
   {
     id: 2,
+    title: "Bride's Day (పెళ్లి కూతురు)",
+    date: "11 November 2026",
+    time: "",
+    venue: "Family Residence",
+    theme: "bride-day",
+    image: "/images/events/haldi.jpg",
+    color: "#F8BBD0",
+    emoji: "dY'?"
+  },
+
+  {
+    id: 3,
     title: "Haldi",
-    date: "16 January 2028",
-    time: "08:00 AM",
+    date: "12 November 2026",
+    time: "03:00 PM",
     venue: "Family Residence",
     theme: "haldi",
     image: "/images/events/haldi.jpg",
@@ -24,10 +36,10 @@ export const events = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Mehendi",
-    date: "16 January 2028",
-    time: "02:00 PM",
+    date: "13 November 2026",
+    time: "08:00 PM",
     venue: "Family Residence",
     theme: "mehendi",
     image: "/images/events/mehendi.jpg",
@@ -36,10 +48,10 @@ export const events = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Sangeet",
-    date: "16 January 2028",
-    time: "07:00 PM",
+    date: "13 November 2026",
+    time: "10:00 PM",
     venue: "Green City Lawn",
     theme: "sangeet",
     image: "/images/events/sangeet.jpg",
@@ -48,9 +60,21 @@ export const events = [
   },
 
   {
-    id: 5,
+    id: 6,
+    title: "Yeduru Nadavadam",
+    date: "14 November 2026",
+    time: "",
+    venue: "Family Residence",
+    theme: "yeduru-nadavadam",
+    image: "/images/events/wedding.jpg",
+    color: "#E1BEE7",
+    emoji: "dY''"
+  },
+
+  {
+    id: 7,
     title: "Reception",
-    date: "17 January 2028",
+    date: "14 November 2026",
     time: "06:00 PM",
     venue: "Green City Convention",
     theme: "reception",
@@ -60,10 +84,10 @@ export const events = [
   },
 
   {
-    id: 6,
+    id: 8,
     title: "Wedding Ceremony",
-    date: "17 January 2028",
-    time: "10:30 AM",
+    date: "15 November 2026",
+    time: "08:30 AM",
     venue: "Kottasathama Temple",
     theme: "wedding",
     image: "/images/events/wedding.jpg",

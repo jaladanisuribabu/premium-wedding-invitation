@@ -55,10 +55,12 @@ export default function EventCard({ event }) {
           <span>{event.date}</span>
         </div>
 
-        <div className="flex items-center gap-3">
-          <Clock3 size={18} />
-          <span>{event.time}</span>
-        </div>
+        {event.time && (
+          <div className="flex items-center gap-3">
+            <Clock3 size={18} />
+            <span>{event.time}</span>
+          </div>
+        )}
 
         <div className="flex items-start gap-3">
           <MapPin size={18} />

@@ -1,7 +1,7 @@
 export const seo = {
 
   title:
-    "Chinni & Venkat Wedding",
+    "Mule Reethika Reddy & Kasireddy Harikrishna Reddy Wedding",
 
   description:
     "Join us to celebrate our wedding ceremony.",

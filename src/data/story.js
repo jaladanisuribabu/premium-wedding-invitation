@@ -2,7 +2,7 @@ export const storyData = [
   {
     id: 1,
     title: "First Meeting",
-    date: "2022",
+    date: "August 8, 2026 - 12:00 AM",
     description:
       "A beautiful beginning where two hearts met for the first time and destiny started writing our story.",
     icon: "❤️",
@@ -12,7 +12,7 @@ export const storyData = [
   {
     id: 2,
     title: "First Conversation",
-    date: "2022",
+    date: "May 13, 2026",
     description:
       "Endless conversations turned strangers into best friends and best friends into soulmates.",
     icon: "💌",
@@ -22,7 +22,7 @@ export const storyData = [
   {
     id: 3,
     title: "Proposal",
-    date: "2024",
+    date: "May 13, 2026 - 09:00 AM",
     description:
       "A magical moment filled with love, happiness, and a promise for forever.",
     icon: "💍",
@@ -32,7 +32,7 @@ export const storyData = [
   {
     id: 4,
     title: "Engagement",
-    date: "2025",
+    date: "October 16, 2026 - 08:00 AM",
     description:
       "Two families united as one while celebrating a new chapter of life.",
     icon: "✨",
@@ -42,7 +42,7 @@ export const storyData = [
   {
     id: 5,
     title: "Wedding Day",
-    date: "2028",
+    date: "November 15, 2026 - 08:30 AM",
     description:
       "The day we begin our forever journey together surrounded by love and blessings.",
     icon: "💒",

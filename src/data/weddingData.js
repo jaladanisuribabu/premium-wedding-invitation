@@ -1,8 +1,8 @@
 export const weddingData = {
-  bride: "Chinni",
-  groom: "Venkat",
+  bride: "Mule Reethika Reddy",
+  groom: "Kasireddy Harikrishna Reddy",
 
-  weddingDate: "2028-01-17T10:30:00",
+  weddingDate: "2026-11-15T08:30:00",
 
   venue: "Thimarajupalam Near Kottasathama Temple Green City"
 };
